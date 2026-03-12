@@ -1,5 +1,5 @@
 pytest
 requests
 flask
-pact-python
-pact-python-cli
+pact-python==1.6.0
+pact-python-cli==2.5.7.0

@@ -24,11 +24,12 @@ jobs:
 
       - name: Install dependencies
         run: |
-          pip install -r requirements.txt
-          pip install pact-python
-          pip install pact-python-cli
+           pip install --upgrade pip
+           pip install -r requirements.txt
 
-
+      - name: Show installed packages
+        run: pip list
+      
       - name: Run consumer tests
         run: pytest consumer -v
 
