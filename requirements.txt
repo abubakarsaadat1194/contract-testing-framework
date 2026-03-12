@@ -1,4 +1,5 @@
 pytest
 requests
-pact-python
 flask
+pact-python
+pact-python-cli
