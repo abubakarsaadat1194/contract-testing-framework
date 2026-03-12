@@ -1,10 +1,15 @@
 # Contract Testing Framework – Python + Pact + Docker + CI
 
+![CI](https://github.com/abubakarsaadat1194/contract-testing-framework/actions/workflows/contract-tests.yml/badge.svg)
 ![Python](https://img.shields.io/badge/Python-3.11-blue)
 ![Pytest](https://img.shields.io/badge/Pytest-Testing-green)
 ![Pact](https://img.shields.io/badge/Pact-Contract%20Testing-orange)
 ![Docker](https://img.shields.io/badge/Docker-Container-blue)
-![CI](https://img.shields.io/badge/GitHub%20Actions-CI-success)
+![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-CI-success)
+![Tests](https://img.shields.io/badge/Tests-Passing-brightgreen)
+![Automation](https://img.shields.io/badge/Automation-Framework-blue)
+![QA](https://img.shields.io/badge/SQA-Project-orange)
+---
 
 ---
 
