@@ -1,0 +1,7 @@
+# Logfile created on 2026-03-12 12:30:39 +0100 by logger.rb/47272
+I, [2026-03-12T12:30:40.145743 #36133]  INFO -- : Running example 'Verifying a pact between UserConsumer and UserProvider Given User exists a request for user with GET /users/1 returns a response which has status code 200'
+I, [2026-03-12T12:30:40.145957 #36133]  INFO -- : Sending GET request to path: "/users/1" with headers: {"X_PACT_PROVIDER_STATES"=>[{"name"=>"User exists"}]}, see debug logs for body
+I, [2026-03-12T12:30:40.190400 #36133]  INFO -- : Received response with status: 200, headers: {"Server"=>"Werkzeug/3.1.6 Python/3.11.3", "Date"=>"Thu, 12 Mar 2026 11:30:40 GMT", "Content-Type"=>"application/json", "Content-Length"=>"27", "Connection"=>"close"}, see debug logs for body
+I, [2026-03-12T12:52:08.426418 #38760]  INFO -- : Running example 'Verifying a pact between UserConsumer and UserProvider Given User exists a request for user with GET /users/1 returns a response which has status code 200'
+I, [2026-03-12T12:52:08.427776 #38760]  INFO -- : Sending GET request to path: "/users/1" with headers: {"X_PACT_PROVIDER_STATES"=>[{"name"=>"User exists"}]}, see debug logs for body
+I, [2026-03-12T12:52:08.474900 #38760]  INFO -- : Received response with status: 200, headers: {"Server"=>"Werkzeug/3.1.6 Python/3.11.15", "Date"=>"Thu, 12 Mar 2026 11:52:08 GMT", "Content-Type"=>"application/json", "Content-Length"=>"27", "Connection"=>"close"}, see debug logs for body

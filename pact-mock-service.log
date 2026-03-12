@@ -1,0 +1,46 @@
+I, [2026-03-12T12:23:41.522508 #35010]  INFO -- : Cleared interactions
+I, [2026-03-12T12:23:41.530290 #35010]  INFO -- : Registered expected interaction GET /users/1
+D, [2026-03-12T12:23:41.530483 #35010] DEBUG -- : {
+  "description": "a request for user",
+  "providerState": "User exists",
+  "request": {
+    "method": "GET",
+    "path": "/users/1"
+  },
+  "response": {
+    "status": 200,
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "body": {
+      "id": 1,
+      "name": "John Doe"
+    }
+  },
+  "metadata": null
+}
+I, [2026-03-12T12:23:41.536992 #35010]  INFO -- : Received request GET /users/1
+D, [2026-03-12T12:23:41.537128 #35010] DEBUG -- : {
+  "path": "/users/1",
+  "query": "",
+  "method": "get",
+  "headers": {
+    "Host": "localhost:1234",
+    "User-Agent": "python-requests/2.32.5",
+    "Accept-Encoding": "gzip, deflate",
+    "Accept": "*/*",
+    "Connection": "keep-alive",
+    "Version": "HTTP/1.1"
+  }
+}
+I, [2026-03-12T12:23:41.537490 #35010]  INFO -- : Found matching response for GET /users/1
+D, [2026-03-12T12:23:41.537572 #35010] DEBUG -- : {
+  "status": 200,
+  "headers": {
+    "Content-Type": "application/json"
+  },
+  "body": {
+    "id": 1,
+    "name": "John Doe"
+  }
+}

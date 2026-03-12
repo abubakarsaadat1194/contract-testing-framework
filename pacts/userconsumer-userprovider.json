@@ -1,0 +1,33 @@
+{
+  "consumer": {
+    "name": "UserConsumer"
+  },
+  "provider": {
+    "name": "UserProvider"
+  },
+  "interactions": [
+    {
+      "description": "a request for user",
+      "providerState": "User exists",
+      "request": {
+        "method": "GET",
+        "path": "/users/1"
+      },
+      "response": {
+        "status": 200,
+        "headers": {
+          "Content-Type": "application/json"
+        },
+        "body": {
+          "id": 1,
+          "name": "John Doe"
+        }
+      }
+    }
+  ],
+  "metadata": {
+    "pactSpecification": {
+      "version": "2.0.0"
+    }
+  }
+}

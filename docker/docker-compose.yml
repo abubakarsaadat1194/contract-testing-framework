@@ -1,0 +1,12 @@
+version: "3.9"
+
+services:
+
+  provider:
+
+    build:
+      context: ..
+      dockerfile: docker/Dockerfile
+
+    ports:
+      - "5000:5000"

@@ -1,0 +1,38 @@
+name: Contract Tests
+
+on:
+  push:
+  pull_request:
+
+jobs:
+
+  contract-tests:
+
+    runs-on: ubuntu-latest
+
+    services:
+      provider:
+        image: docker-provider
+        ports:
+          - 5000:5000
+
+    steps:
+
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: 3.11
+
+      - name: Install dependencies
+        run: |
+          pip install -r requirements.txt
+          pip install pact-python-cli
+
+      - name: Run consumer tests
+        run: pytest consumer -v
+
+      - name: Run provider tests
+        run: pytest provider -v
